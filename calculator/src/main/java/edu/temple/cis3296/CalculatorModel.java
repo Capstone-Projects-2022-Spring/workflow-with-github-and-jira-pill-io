@@ -108,7 +108,10 @@ public class CalculatorModel {
         }
     }
 
-    public double operationClear() { return 0.0; }
+    public double operationClear() {
+        displayValue = 0; // clears display
+        internalValue = 0; // clears internal memory
+        return 0.0; } // sends display info to be decimal/float form of 0
 
     public double operationAdd(double rhs, double lhs) {
         return lhs + lhs;
