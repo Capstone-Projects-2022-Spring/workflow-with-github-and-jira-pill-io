@@ -15,7 +15,7 @@ public class CalculatorModelTest {
 	@Test
 	public void shouldAddTwoPlusTwo(){
 		// Assert 2.0 plus 2.0 is equals 4.0 plus or minus 0.1 epsilon
-		// Double comparaison necessite to specify an epsilon. 
+		// Double comparison necessary to specify an epsilon.
 		assertEquals(4.0, calc.operationAdd(2.0, 2.0), 0.1);
 	} 
 
