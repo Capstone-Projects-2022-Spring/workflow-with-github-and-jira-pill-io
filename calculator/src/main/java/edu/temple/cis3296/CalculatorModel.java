@@ -127,7 +127,7 @@ public class CalculatorModel {
         return rhs/lhs;
     }
 
-    public double operationPercent(double value) { return 0.1; }
+    public double operationPercent(double value) { return (value / 100.0) ; }
 
     public double operationInverse(double value) { return -value; }
 
